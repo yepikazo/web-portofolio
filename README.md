@@ -2,4 +2,4 @@
 
 website ini dibuat untuk mememnuhi tugas praktikum mata kuliah pemrograman 
 
-[https://yepikazo.github.io/web-portofolio/](#lihat website).
+[lihat website](https://yepikazo.github.io/web-portofolio/)
