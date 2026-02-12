@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Portofolio Yasraf Syifa Maulana 247006111070</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
     <nav id="navbar">
-        <div class="logo">
-            <p>Yasraf</p>
-            <p class="sm">SM</p>
-        </div>
-        <ul>
-            <a href="#home">home</a>
-            <a href="#aboutMe">about me</a>
-            <a href="#skills">skills</a>
-            <a href="#projects">projects</a>
-            <a class="navcontacts" href="#contacts">contacts</a>
-        </ul>
-    </nav>
-    <section id="home" class="home">
+    <div class="logo">
+        <p>Yasraf</p>
+        <p class="sm">SM</p>
+    </div>
+
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <ul id="navLinks">
+        <a href="#home">home</a>
+        <a href="#aboutMe">about me</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a class="navcontacts" href="#contacts">contacts</a>
+    </ul>
+</nav>
+
+    <section id="home" class="home reveal">
         <div class="deskripsi">
-            <h3 class="greeting">halo</h3>
+            <h3 class="greeting">Saya</h3>
             <div class="title">
-                <h1>Saya</h1> <h1 class="nama"> Yasraf Syifa Maulana</h1>
+                <h1 class="nama"> Yasraf Syifa Maulana</h1>
             </div>
-            <p class="jobdesk">web developer / UI UX enthusiast</p>
-            <p class="herodesc">Saya menikmati proses memahami masalah, merancang solusi, lalu melihatnya berjalan dengan baik dalam bentuk sistem web. Setiap proyek menjadi ruang untuk melatih cara berpikir yang lebih terstruktur dan solutif. Saya percaya bahwa web development bukan hanya soal teknis, tetapi juga tentang bagaimana menyusun ide menjadi sesuatu yang bermanfaat dan dapat dipahami dengan jelas.</p>
+            <p class="jobdesk">
+                <span id="typing"></span>
+            </p>
+            <p class="herodesc">Saya menikmati proses memahami masalah, merancang solusi, lalu melihatnya berjalan
+                dengan baik dalam bentuk sistem web. Setiap proyek menjadi ruang untuk melatih cara berpikir yang lebih
+                terstruktur dan solutif. Saya percaya bahwa web development bukan hanya soal teknis, tetapi juga tentang
+                bagaimana menyusun ide menjadi sesuatu yang bermanfaat dan dapat dipahami dengan jelas.</p>
             <div class="cta">
                 <a href="assets/CV_Yasraf Syifa Maulana.pdf" class="cv" download="">unduh cv</a>
                 <a href="#aboutMe" class="more">more</a>
             </div>
         </div>
-        <img src="assets/yasrafsm.png" alt="yasrafsm" width="400px" height="400px">
+        <img src="assets/yasrafsm.png" alt="yasrafsm">>
     </section>
-    <section id="aboutMe" class="aboutMe">
+    <section id="aboutMe" class="aboutMe reveal">
         <h1 class="heading">about me</h1>
         <div class="kontenAbout">
-            <img src="assets/stego.png" alt="myBini">
             <div class="aboutdesc">
-                <p>Saya adalah mahasiswa Informatika semester 4 yang memiliki ketertarikan pada pengembangan web sejak masa SMA. Ketertarikan tersebut berkembang dari rasa ingin tahu tentang bagaimana sebuah sistem bekerja, hingga bagaimana teknologi dapat digunakan untuk menyelesaikan masalah secara nyata.</p>
-                <p>Saya menikmati proses merancang tampilan yang terstruktur sekaligus menganalisis persoalan di baliknya. Bagi saya, desain dan problem solving bukan dua hal yang terpisah, melainkan bagian dari satu proses yang saling melengkapi.</p>
-                <p>Sebagian besar pembelajaran saya lakukan melalui eksperimen mandiri, mencoba berbagai pendekatan, dan memahami langsung bagaimana suatu solusi bekerja dalam praktik. Saat ini, saya terus mendalami teknologi web terbaru sebagai bagian dari proses berkembang menjadi developer yang lebih terstruktur dan adaptif.</p>
+                <p>Saya merupakan mahasiswa Informatika semester 4 yang memiliki ketertarikan pada pengembangan web sejak
+                    masa SMA. Ketertarikan tersebut berkembang dari rasa ingin tahu tentang bagaimana sebuah sistem
+                    bekerja, hingga bagaimana teknologi dapat digunakan untuk menyelesaikan masalah secara nyata.</p>
+                <p>Saya menikmati proses merancang tampilan yang terstruktur sekaligus menganalisis persoalan di
+                    baliknya. Bagi saya, desain dan problem solving bukan dua hal yang terpisah, melainkan bagian dari
+                    satu proses yang saling melengkapi.</p>
+                <p>Sebagian besar pembelajaran saya lakukan melalui eksperimen mandiri, mencoba berbagai pendekatan, dan
+                    memahami langsung bagaimana suatu solusi bekerja dalam praktik. Saat ini, saya terus mendalami
+                    teknologi web terbaru sebagai bagian dari proses berkembang menjadi developer yang lebih terstruktur
+                    dan adaptif.</p>
             </div>
         </div>
 
     </section>
-    <section id="skills" class="skills">
+    <section id="skills" class="skills reveal">
         <p class="heading">skills</p>
         <div class="skillCards">
             <div class="card">
@@ -76,22 +97,22 @@
             </div>
         </div>
     </section>
-    <section id="projects" class="projects">
+    <section id="projects" class="projects reveal">
         <p class="heading">projects</p>
         <div class="project-list">
             <div class="project-card">
                 <img src="assets/projects/myMemManage.png" alt="myMemManage" width="300" height="180px">
                 <h3>myMemManage</h3>
-                <a href="#" class="view">view details</a>
+                <a href="https://github.com/yepikazo/myMemManage" class="view">view details</a>
             </div>
             <div class="project-card">
                 <img src="assets/projects/sikat.png" alt="myMemManage" width="300px" height="180px">
                 <h3>sikat</h3>
-                <a href="#" class="view">view details</a>
+                <a href="https://github.com/yepikazo/sikat" class="view">view details</a>
             </div>
         </div>
     </section>
-    <section id="contacts" class="contacts">
+    <section id="contacts" class="contacts reveal">
         <p class="heading">contacts</p>
         <div class="contact-list">
             <div class="contact-card">
@@ -101,14 +122,14 @@
                     <a href="https://github.com/yepikazo" target="_blank">github.com/yepikazo</a>
                 </div>
             </div>
-            <div class="contact-card">
+            <div class="contact-card reveal">
                 <img src="assets/logo/wa.png" alt="whatsapp" width="50">
                 <div class="contact-text">
                     <p>whatsapp</p>
-                    <a href="https://wa.me/6285749355687" target="_blank">+6285749355687</a> 
+                    <a href="https://wa.me/6285749355687" target="_blank">+6285749355687</a>
                 </div>
             </div>
-            <div class="contact-card">
+            <div class="contact-card reveal">
                 <img src="assets/logo/email.png" alt="email" width="50">
                 <div class="contact-text">
                     <p>email</p>
@@ -120,4 +141,5 @@
     </section>
     <script src="js/script.js"></script>
 </body>
+
 </html>
