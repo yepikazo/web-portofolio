@@ -1,5 +1,5 @@
 # Website Portofolio - Yasraf Syifa Maulana
 
-website ini dibuat untuk mememnuhi tugas praktikum mata kuliah pemrograman web
+website ini dibuat untuk mememnuhi tugas praktikum mata kuliah pemrograman 
 
-Link to the sample section: [](#sample-section).
+[https://yepikazo.github.io/web-portofolio/](#lihat website).
